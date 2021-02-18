@@ -18,6 +18,7 @@ Authors@R: c(
     )
 Description: Implementation of the Harmony algorithm for single cell integration, described in Korsunsky et al <doi.org/10.1101/461954>. Package includes a standalone Harmony function and interfaces to external frameworks.
 URL: software.broadinstitute.org/harmony
+// [[Rcpp::plugins("cpp11")]]
 License: GPL-3 + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.0.2
